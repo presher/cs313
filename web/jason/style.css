@@ -35,6 +35,10 @@ div img:hover {
     width: 650px;
     height: 600px;
 }
+div p {
+	text-align: center;
+}
 footer {
 	clear: both;
+	margin-bottom: .1em;
 }
