@@ -31,7 +31,7 @@ main div {
 	-webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
     transition: width 2s, height 4s;
 }
-div:hover {
+main div:hover {
     width: 1000px;
     height: 900px;
 }
