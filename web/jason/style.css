@@ -25,13 +25,16 @@ img {
 	 width: 40%;
 	 
 }
-main div {
-	width: auto;
-    height: auto;
+div img {
+	width: 450px;
+    height: 500px;
 	-webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
     transition: width 2s, height 4s;
 }
-main div:hover {
+div img:hover {
     width: 1000px;
     height: 900px;
+}
+footer {
+	clear: both;
 }
