@@ -32,8 +32,8 @@ div img {
     transition: width 2s, height 4s;
 }
 div img:hover {
-    width: 1000px;
-    height: 900px;
+    width: 650px;
+    height: 600px;
 }
 footer {
 	clear: both;
