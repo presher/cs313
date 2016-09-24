@@ -27,7 +27,7 @@ img {
 }
 div img {
 	width: 450px;
-    height: 500px;
+    height: 400px;
 	-webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
     transition: width 2s, height 4s;
 }
