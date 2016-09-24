@@ -32,7 +32,7 @@ div img {
 	width: 450px;
     height: 400px;
 	-webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
-    transition: width 5s, height 7s;
+    transition: width 0s, height 0s;
 }
 div img:hover {
     width: 650px;
