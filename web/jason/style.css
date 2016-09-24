@@ -1,5 +1,5 @@
 html {
-    background-color: rgb(1, 192, 192);
+    background-color: rgba(0, 0, 255, 0.3);
 
 }
 body {
@@ -19,6 +19,9 @@ p {
 h1 {
 	
 }
+h6 {
+	text-align: center;
+}
 img {
 	 display: block;
 	 margin: auto;
@@ -29,7 +32,7 @@ div img {
 	width: 450px;
     height: 400px;
 	-webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
-    transition: width 2s, height 4s;
+    transition: width 5s, height 7s;
 }
 div img:hover {
     width: 650px;
