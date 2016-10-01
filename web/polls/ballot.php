@@ -1,6 +1,6 @@
 <?php require_once('header.php');
 ?>
-    <h1>CS 313 03.5 - Team Readiness Activity</h1>
+    <h1>CS 313 03.6 - Individual Activity</h1>
     <form method="post" action="ballot.php">
             <label for="name">Name: </label>
             <input type="text" name="name">
