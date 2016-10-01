@@ -1,4 +1,6 @@
-<?php if (isset($_SESSION)) "poll_results.php";?>
+<?php if Session.SessionID == true{
+	include("poll_results.php");
+}
 <?php require_once('header.php');?>
 
     <h1>CS 313 03.6 - Individual Activity</h1>

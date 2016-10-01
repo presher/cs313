@@ -1,3 +1,3 @@
 </body>
-<footer> Copyright <?php date("Y");?> Jason Presher</footer>
+<footer> Copyright <?php echo date("Y");?> Jason Presher</footer>
 </html>
