@@ -1,4 +1,4 @@
-<?php if Session.SessionID == true{
+<?php if Session.SessionID != null {
 	include("poll_results.php");
 }
 <?php require_once('header.php');?>
