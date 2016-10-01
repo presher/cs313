@@ -45,15 +45,11 @@ td{
 thead{
 	border: 1px solid back;
 }
-label{
-    padding:5px;
-    color:#222;
-    font-family:corbel,sans-serif;
-    font-size: 14px;
-    margin: 10px;
+label, label>input{
+    font-size: 20px;
+    display: inline-block;
+    margin: 0;
+    line-height: 28px;
+    height: 28px;
+    vertical-align: top;
 }
-input[type='radio']{   
-    vertical-align: baseline;
-    padding: 10px;
-    margin: 10px;
- }
