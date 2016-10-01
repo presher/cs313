@@ -1,4 +1,4 @@
 <?php if (!isset($_SESSION)){
-	include('ballot.php');
-	return;
+	require_once('ballot.php');
+	
 }else { include('poll_results.php');}?>
