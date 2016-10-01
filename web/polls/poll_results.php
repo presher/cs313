@@ -14,12 +14,12 @@
 	</thead>
 	<tbody>
 		<tr>
-			<td><?php echo get_form_request('favorite_book') ?></td>
-			<td><?php echo get_form_request('visit') ?></td>
-			<td><?php echo get_form_request('favrite_Season') ?></td>
-			<td><?php echo get_form_request('favorite_Tree') ?></td>
+			<td><?php echo get_form_request('favoriteBook'); ?></td>
+			<td><?php echo get_form_request('visit'); ?></td>
+			<td><?php echo get_form_request('favoriteSeason'); ?></td>
+			<td><?php echo get_form_request('favoriteTree'); ?></td>
 		</tr>
 	</tbody>
 </table>
-
+<a href="https://shrouded-shore-88291.herokuapp.com/polls/index.php">Home</a>
 <?php require_once('footer.php');?>
