@@ -1,3 +1,3 @@
-<?php if (session_id = session_id){
-	include('poll_results.php.');
-}else { include('ballot.php');}?>
+<?php if (!isset($_SESSION){
+	include('ballot.php');
+}else { include('poll_results.php');}?>
