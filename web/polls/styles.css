@@ -8,10 +8,13 @@ body {
     margin: 0 auto;
     padding: 0 2em;
     background-color: white;
-    /*border: 1px solid black;*/
+    border: 1px solid black;
 }
 main {
 	
+}
+form{
+	border: 1px solid blue;
 }
 #maintext {
 	text-align: justify;
