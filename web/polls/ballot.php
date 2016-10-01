@@ -4,11 +4,11 @@
     <form  action="poll_results.php" method="post">
             
             <label for="favoriteBook">Favorite Book:</label>
-            <input type="text" name="favoriteBook">
+            <input type="text" name="favoriteBook" required="required">
 			<br>            
 
             <label for="visit">Place you would like to visit: </label><br>
-            <input type="radio" name="visit" value="Philippines">
+            <input type="radio" name="visit" value="Philippines" required="required">
             Philippines<br>
             <input type="radio" name="visit" value="Russia">
             Russia<br>
@@ -24,13 +24,13 @@
             Antartica<br>
 			
 			<label for="favoriteSeason">Favorite Season</label><br>
-			<input type="radio" name="favoriteSeason" value="Summer">Summer<br>
+			<input type="radio" name="favoriteSeason" value="Summer" required="required">Summer<br>
 			<input type="radio" name="favoriteSeason" value="Fall">Fall<br>
 			<input type="radio" name="favoriteSeason" value="Winter">Winter<br>
 			<input type="radio" name="favoriteSeason" value="Spring">Spring<br>
 			
 			<label for="favoriteTree">Favorite Tree</label><br>
-			<input type="text" name="favoriteTree">
+			<input type="text" name="favoriteTree" required>
 			<br>
 
             <label for="comments">Comments: </label><br>
