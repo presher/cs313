@@ -1,4 +1,7 @@
-<?php require_once('header.php');
+<?php 
+ if (!isset($_SESSION)) session_start();
+ require_once('form_action.php');
+ require_once('header.php');
 ?>
     <h1>CS 313 03.6 - Individual Activity</h1>
 		<h2>Thank you for your Participation!</h2>
