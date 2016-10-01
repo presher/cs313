@@ -1,8 +1,8 @@
 <?php if (!isset($_SESSION)) session_start();
 
  <?php require_once('form_action.php');?>
- <?php require_once('poll_write_file.php'); ?>
- echo $file;
+ <?php require_once('poll_write_file.php'); 
+ echo $file; ?>
 <?php require_once('header.php');
 
 ?>
