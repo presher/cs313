@@ -2,10 +2,11 @@
  <?php require_once('form_action.php');?>
  <?php require_once('poll_write_file.php'); ?>
 <?php require_once('header.php');
-
+echo "session: " .$_SESSION;
 ?>
+<div class="container">
 <h1>Poll Results</h1>
-<div class="row">
+	<div class="row">
         <div class="col-md-12">
             <div class="boxed">
 
@@ -27,6 +28,7 @@
 		</tr>
 	</tbody>
 </table>
+			</div>
 		</div>
 	</div>
 </div>
