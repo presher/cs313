@@ -1,8 +1,8 @@
 <?php 
- if (!isset($_SESSION)) session_start();
- require_once('form_action.php');
- require_once('header.php');
-?>
+ if (!isset($_SESSION)) session_start();?>
+ <?php require_once('form_action.php');?>
+ <?php require_once('header.php');?>
+ <?php require_once('poll_write_file.php') ?>
     <h1>CS 313 03.6 - Individual Activity</h1>
 		<h2>Thank you for your Participation!</h2>
     <div class="name">
