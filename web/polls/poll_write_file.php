@@ -16,6 +16,7 @@ function write_request_to_file(&$file_ptr, $request) {
     }
 }
 $file = 'poll_results.txt';
+echo $file;
 $today = date("F j, Y, g:i a");
 $current = file_get_contents($file);
 $current .= $today . "\n\n";
