@@ -30,3 +30,6 @@ footer {
 a:link {
 	color: white;
 }
+#row{
+	border-bottom: 1px solid black;
+}

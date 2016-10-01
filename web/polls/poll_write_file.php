@@ -1,5 +1,5 @@
 <?php
-echo "save";
+
 date_default_timezone_set('America/Denver');
 /**
  * Writes an array of data to a given point in a file.
