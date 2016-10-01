@@ -5,6 +5,9 @@
 
 ?>
 <h1>Poll Results</h1>
+<div class="row">
+        <div class="col-md-12">
+            <div class="boxed">
 
 <table>
 	<thead>
@@ -24,5 +27,8 @@
 		</tr>
 	</tbody>
 </table>
+		</div>
+	</div>
+</div>
 <a href="https://shrouded-shore-88291.herokuapp.com/polls/index.php">Home</a>
 <?php require_once('footer.php');?>
