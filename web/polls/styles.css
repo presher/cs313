@@ -7,8 +7,8 @@ body {
     width: 900px;
     margin: 0 auto;
     padding: 0 2em;
-    background-color: white;
-    border: 1px solid black;
+    background-color: brown;
+    border: 1px solid green;
 }
 main {
 	
@@ -16,61 +16,13 @@ main {
 form{
 	border: 1px solid blue;
 }
-#maintext {
-	text-align: justify;
-    text-justify: inter-word;
-}
+
 h1 {
-	
-}
-h6 {
 	text-align: center;
 }
-img {
-	 display: block;
-	 margin: auto;
-	 width: 40%;
-	 
-}
-div img {
-	width: 450px;
-    height: 400px;
-	-webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
-    transition: width 0s, height 0s;
-}
-div img:hover {
-    width: 650px;
-    height: 600px;
-}
-div p {
-	text-align: center;
-}
+
 footer {
 	clear: both;
 	margin-bottom: .1em;
 	text-align: center;
-}
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-nav li {
-    float: left;
-}
-
-nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
- nav li a:hover {
-    background-color: #111;
 }
