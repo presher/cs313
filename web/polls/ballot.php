@@ -1,7 +1,7 @@
 <?php require_once('header.php');
 ?>
     <h1>CS 313 03.6 - Individual Activity</h1>
-    <form method="post" action="ballot.php">
+    <form method="post" action="ballots.php">
             <label for="name">Name: </label>
             <input type="text" name="name">
             <br>
@@ -10,24 +10,24 @@
             <input type="text" name="email">
             <br>
 
-            <label for="favoriteBook">Favorite Book:</label><br>
+            <label for="favoriteBook">Favorite Book:</label>
             <input type="text" name="favoriteBook">
-            
+			<br>            
 
             <label for="visit">Place you would like to visit: </label><br>
-            <input type="checkbox" name="visit[]" value="Philippines">
+            <input type="radio" name="visit[]" value="Philippines">
             Philippines<br>
-            <input type="checkbox" name="visit[]" value="Russia">
+            <input type="radio" name="visit[]" value="Russia">
             Russia<br>
-            <input type="checkbox" name="visit[]" value="England">
+            <input type="radio" name="visit[]" value="England">
             England<br>
-            <input type="checkbox" name="visit[]" value="Ireland">
+            <input type="radio" name="visit[]" value="Ireland">
             Ireland<br>
-            <input type="checkbox" name="visit[]" value="Australia">
+            <input type="radio" name="visit[]" value="Australia">
             Australia<br>
-            <input type="checkbox" name="visit[]" value="Israel">
+            <input type="radio" name="visit[]" value="Israel">
             Israel<br>
-            <input type="checkbox" name="visit[]" value="Antartica">
+            <input type="radio" name="visit[]" value="Antartica">
             Antartica<br>
 			
 			<label for="favoriteSeason">Favorite Season</label><br>
