@@ -7,15 +7,15 @@ body {
     width: 900px;
     margin: 0 auto;
     padding: 0 2em;
-    background-color: brown;
-    border: 1px solid green;
+    background-color: #00FF00;
+    border: 1px solid red;
 }
 main {
 	
 }
 form{
 	border: 1px solid blue;
-	
+	text-align: center;
 }
 
 h1 {
@@ -26,4 +26,7 @@ footer {
 	clear: both;
 	margin-bottom: .1em;
 	text-align: center;
+}
+a:link {
+	color: white;
 }
