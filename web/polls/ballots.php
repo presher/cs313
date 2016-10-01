@@ -13,7 +13,7 @@
     <div class="visit">
         <strong>Place you would like to visit:</strong> <br>
         <?php
-            $placesVisited = $_POST['visit'];
+            $visit = $_POST['visit'];
             foreach ($visit as $place) {
                 echo "$place<br>";
             }
