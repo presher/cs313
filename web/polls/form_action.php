@@ -1,4 +1,5 @@
 <?php
+echo "action";
 /**
  * Process the form request and return the data. Create a session variable if it
  *  hasn't already been set.
