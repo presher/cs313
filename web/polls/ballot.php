@@ -33,9 +33,6 @@
 			<input type="text" name="favoriteTree" required>
 			<br>
 
-            <label for="comments">Comments: </label><br>
-            <textarea name="comments" cols="30" rows="10"></textarea><br>
-
-            <input type="submit" >
+            <input type="submit" class="btn btn-success" value="Submit Survey">
     </form>
 <?php require_once('footer.php');?>
