@@ -1,3 +1,4 @@
+<?php if (!isset($_SESSION)) poll_reults.php;?>
 <?php require_once('header.php');?>
 
     <h1>CS 313 03.6 - Individual Activity</h1>
@@ -31,6 +32,7 @@
 			
 			<label for="favoriteTree">Favorite Tree</label><br>
 			<input type="text" name="favoriteTree" required>
+			<br>
 			<br>
 
             <input type="submit" class="btn btn-success" value="Submit Survey">
