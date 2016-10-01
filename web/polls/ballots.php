@@ -32,4 +32,5 @@
     <div class="comments">
         <strong>Comments:</strong> <?php echo $_POST['comments']; ?>
     </div>
+	<a href= "https://shrouded-shore-88291.herokuapp.com/polls/poll_results.php">See Poll Results</a>
 <?php require_once('footer.php');?>
