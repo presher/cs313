@@ -1,3 +1,3 @@
 </body>
-<footer> Copy 2016 Jason Presher</footer>
+<footer> Copyright date("Y") Jason Presher</footer>
 </html>
