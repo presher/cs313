@@ -1,8 +1,9 @@
-<?php if (!isset($_SESSION)) session_start();?>
+<?php if (!isset($_SESSION)) session_start();
+echo session_id();?>
  <?php require_once('form_action.php');?>
  <?php require_once('poll_write_file.php'); ?>
 <?php require_once('header.php');
-echo "session: " .$_SESSION;
+
 ?>
 <div class="container">
 <h1>Poll Results</h1>
