@@ -1,6 +1,7 @@
 <?php require_once('header.php');
 ?>
     <h1>CS 313 03.6 - Individual Activity</h1>
+		<h2>Thank you for your Participation!</h2>
     <div class="name">
         <strong>Name:</strong> <?php echo $_POST['name']; ?>
     </div>
