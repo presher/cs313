@@ -1,4 +1,4 @@
-<?php require_once('poll_results.php');?>
+<?php require_once('form_action.php');?>
 <?php require_once('header.php');?>
 
     <h1>CS 313 03.6 - Individual Activity</h1>
