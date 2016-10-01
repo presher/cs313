@@ -21,9 +21,10 @@ $current = file_get_contents($file);
 $current .= $today . "\n\n";
 write_request_to_file($current, get_full_form_request());
 $current .= "\n";
-
 file_put_contents($file, $current);
+
 $myfile = fopen("poll_results.txt", "w") or die("Unable to open file!");
+echo $myfile;
 $txt = "hello";
 fwrite($myfile, $txt);
 fclose($myfile);
