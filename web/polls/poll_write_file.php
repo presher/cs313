@@ -21,12 +21,8 @@ $current = file_get_contents($file);
 $current .= $today . "\n\n";
 write_request_to_file($current, get_full_form_request());
 $current .= "\n";
-file_put_contents($file, $_POST[], FILE_APPEND);
+file_put_contents($file, $current, $_POST['polls'], FILE_APPEND);
 
-$myfile = fopen("poll_results.txt", "w", FILE_APPEND) or die("Unable to open file!");
 
-$txt = "hello" "\n";
-fwrite($myfile, $txt);
-fclose($myfile);
 ?>
 file_put_contents("filename",$_POST[](or whatever to add),FILE_APPEND(to add, not overwrite).

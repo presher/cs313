@@ -4,7 +4,7 @@
 <?php require_once('header.php');?>
 
     <h1>CS 313 03.6 - Individual Activity</h1>
-    <form  action="poll_results.php" method="post">
+    <form  action="poll_results.php" method="post" name="polls">
             
             <label for="favoriteBook">Favorite Book:</label><br>
             <input type="text" name="favoriteBook" required="required">
