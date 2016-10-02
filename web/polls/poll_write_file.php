@@ -22,7 +22,7 @@ $current .= $today . "\n\n";
 write_request_to_file($current, get_full_form_request());
 $current .= "\n";*/
 chmod("poll_results.txt",0600);
-file_put_contents("poll_results.txt", $_POST['polls'], FILE_APPEND) or die ("unable to open file!");
+file_put_contents("poll_results.txt", $_POST['polls'], FILE_APPEND) ;
 
 
 ?>
