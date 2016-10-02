@@ -25,4 +25,3 @@ file_put_contents($file, $current, $_POST['polls'], FILE_APPEND);
 
 
 ?>
-file_put_contents("filename",$_POST[](or whatever to add),FILE_APPEND(to add, not overwrite).
