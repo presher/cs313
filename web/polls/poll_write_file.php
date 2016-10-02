@@ -15,13 +15,13 @@ function write_request_to_file(&$file_ptr, $request) {
         }
     }
 }
-$file = 'poll_results.txt';
+$file = 'polls/poll_results.txt';
 $today = date("F j, Y, g:i a");
 $current = file_get_contents($file);
 $current .= $today . "\n\n";
 write_request_to_file($current, get_full_form_request());
 $current .= "\n";
-file_put_contents($file, $current);
+file_put_contents($file, $current, FILE_APPEND);
 
 $myfile = fopen("poll_results.txt", "w") or die("Unable to open file!");
 
