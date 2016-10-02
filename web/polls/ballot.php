@@ -1,7 +1,7 @@
 <?php
 if(isset($_COOKIE["poll"])) 
 { 
-   header('Location: poll_results.php'); 
+   header('Location: poll_complete.php'); 
 }
 ?>
 
