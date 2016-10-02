@@ -2,7 +2,7 @@
 
 if(isset($_COOKIE["poll"])) 
 { 
-   include('Location: poll_results.php'); 
+   include('poll_results.php'); 
    
 } 
 <?php require_once('header.php'); ?>
