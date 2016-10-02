@@ -4,7 +4,7 @@ setcookie('poll', 1, time() + (86400 * .01), '/');
 ?>
  <?php require_once('form_action.php'); ?>
  <?php require_once('poll_write_file.php'); ?>
- <?php fopen("polls/poll_results.txt") or die("Unable to open file!");?>
+ 
 <?php require_once('header.php'); ?>
 
 <div class="container">

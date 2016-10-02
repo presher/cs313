@@ -4,7 +4,7 @@ date_default_timezone_set('America/Denver');
 /**
  * Writes an array of data to a given point in a file.
  */
-function write_request_to_file(&$file_ptr, $request) {
+/*function write_request_to_file(&$file_ptr, $request) {
     foreach ($request as $key => $val) {
         if (!is_array($val)) {
             if (substr($key, 0, 1) !== '_') {
@@ -14,18 +14,19 @@ function write_request_to_file(&$file_ptr, $request) {
             write_request_to_file($file_ptr, $val);
         }
     }
-}
+}*/
 $file = 'polls/poll_results.txt';
 $today = date("F j, Y, g:i a");
 $current = file_get_contents($file);
 $current .= $today . "\n\n";
 write_request_to_file($current, get_full_form_request());
 $current .= "\n";
-file_put_contents($file, $current, FILE_APPEND);
+file_put_contents($file, $_POST[], FILE_APPEND);
 
-$myfile = fopen("poll_results.txt", "w") or die("Unable to open file!");
+$myfile = fopen("poll_results.txt", "w", FILE_APPEND) or die("Unable to open file!");
 
-$txt = "hello";
+$txt = "hello" "\n";
 fwrite($myfile, $txt);
 fclose($myfile);
 ?>
+file_put_contents("filename",$_POST[](or whatever to add),FILE_APPEND(to add, not overwrite).
