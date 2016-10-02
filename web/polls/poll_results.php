@@ -1,8 +1,5 @@
 <?php if (!isset($_SESSION)) session_start();
-$_SESSION["visit"] = get_form_request;
-$_SESSION["favoriteBook"] = get_form_request;
-$_SESSION["favoriteSeason"] = get_form_request;
-$_SESSION["favoriteTree"] = get_form_request;?>
+?>
 <?php
 setcookie('poll', '/'); 
 ?>
@@ -28,7 +25,7 @@ setcookie('poll', '/');
 	</thead>
 	<tbody>
 		<tr>
-			<td><?php echo get_form_request('favoriteBook'); ?></td>
+			<td><?php echo $_SESSION['get_form_request('favoriteBook')']; ?></td>
 			<td><?php echo get_form_request('visit'); ?></td>
 			<td><?php echo get_form_request('favoriteSeason'); ?></td>
 			<td><?php echo get_form_request('favoriteTree'); ?></td>
