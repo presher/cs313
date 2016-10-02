@@ -19,7 +19,7 @@
 	</thead>
 	<tbody>
 		<tr>
-			<td><?php echo ($_SESSION(get_form_request)('favoriteBook')); ?></td>
+			<td><?php echo $_SESSION('favoriteBook'); ?></td>
 			<td><?php echo get_form_request('visit'); ?></td>
 			<td><?php echo get_form_request('favoriteSeason'); ?></td>
 			<td><?php echo get_form_request('favoriteTree'); ?></td>
