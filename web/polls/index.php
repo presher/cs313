@@ -1,10 +1,10 @@
 <?php  
 
-if(isset($_COOKIE["poll"])) 
+/*if(isset($_COOKIE["poll"])) 
 { 
    header('Location: poll_results.php'); 
    
-} ?>
+}*/ ?>
 <?php require_once('header.php'); ?>
 
 <h1>Welcome To My Poll</h1>
