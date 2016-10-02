@@ -1,7 +1,7 @@
 <?php 
 // note leading dot in '.yourdomain.com': 
-setcookie('poll', 1, time() + 365*24*60*60, '/'); 
-if(!empty($_COOKIE['poll_results.php'])) 
+
+if(isset($_COOKIE["poll"])) 
 { 
    header('Location: poll_results.php'); 
    exit; 
