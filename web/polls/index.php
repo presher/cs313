@@ -2,9 +2,9 @@
 
 if(isset($_COOKIE["poll"])) 
 { 
-   include('poll_results.php'); 
+   header('Location: poll_results.php'); 
    
-} 
+} ?>
 <?php require_once('header.php'); ?>
 
 <h1>Welcome To My Poll</h1>
@@ -13,4 +13,3 @@ if(isset($_COOKIE["poll"]))
 		<a href= "https://shrouded-shore-88291.herokuapp.com/polls/poll_results.php">See Poll Results</a>
 <?php require_once('footer.php'); ?>
 
-?>
