@@ -1,3 +1,4 @@
+<?php require_once('form_action.php'); ?>
 <?php require_once('header.php'); ?>
 
 <div class="container">
