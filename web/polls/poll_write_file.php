@@ -9,10 +9,10 @@ function file_put_contents($filename, $data, FILE_APPEND)
 { 
   if( $file = fopen($filename, 'w') ) 
   { 
-    $bytes = fwrite($file, is_array($data) ? implode('', $data) : $data); 
+     
     fclose($file); 
   } 
-  return;
+  
 }   
                    
   
