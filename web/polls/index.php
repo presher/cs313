@@ -1,10 +1,9 @@
-<?php 
-// note leading dot in '.yourdomain.com': 
+<?php  
 
 if(isset($_COOKIE["poll"])) 
 { 
-   header('Location: poll_results.php'); 
-   exit; 
+   include('Location: poll_results.php'); 
+   
 } 
 <?php require_once('header.php'); ?>
 
