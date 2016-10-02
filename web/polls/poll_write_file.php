@@ -21,6 +21,7 @@ $current = file_get_contents($file);
 $current .= $today . "\n\n";
 write_request_to_file($current, get_full_form_request());
 $current .= "\n";*/
+chmod("poll_results.txt",0600);
 file_put_contents("poll_results.php", $_POST['polls'], FILE_APPEND) or die ("unable to open file!");
 
 
