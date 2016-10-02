@@ -1,6 +1,6 @@
-<?php if Session.SessionID != null {
-	include("poll_results.php");
-}
+
+
+
 <?php require_once('header.php');?>
 
     <h1>CS 313 03.6 - Individual Activity</h1>
@@ -40,3 +40,4 @@
             <input type="submit" class="btn btn-success" value="Submit Survey">
     </form>
 <?php require_once('footer.php');?>
+?>
