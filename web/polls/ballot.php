@@ -1,5 +1,8 @@
-
-
+<?php
+if(isset($_COOKIE["poll"])) 
+{ 
+   header('Location: poll_results.php'); 
+?>
 
 <?php require_once('header.php');?>
 
