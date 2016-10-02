@@ -1,8 +1,5 @@
 <?php 
-$_SESSION["visit"] = get_form_request('visit');
-$_SESSION["favoriteBook"] = get_form_request('favoriteBook');
-$_SESSION["favoriteSeason"] = get_form_request;
-$_SESSION["favoriteTree"] = get_form_request;
+
 ?>
 <?php require_once('header.php'); ?>
 
@@ -25,7 +22,7 @@ $_SESSION["favoriteTree"] = get_form_request;
 	<tbody>
 		<tr>
 			<td><?php echo $_SESSION["favoriteBook"]; ?></td>
-			<td><?php echo get_form_request('visit'); ?></td>
+			<td><?php echo $_SESSION('visit'); ?></td>
 			<td><?php echo get_form_request('favoriteSeason'); ?></td>
 			<td><?php echo get_form_request('favoriteTree'); ?></td>
 		</tr>

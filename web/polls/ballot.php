@@ -10,13 +10,14 @@ if(isset($_COOKIE["poll"]))
     <h1>CS 313 03.6 - Individual Activity</h1>
     <form  action="poll_results.php" method="post" name="polls">
             
-            <label for="favoriteBook">Favorite Book:</label><br>
+            <label ="favoriteBook">Favorite Book:</label><br>
             <input type="text" name="favoriteBook" required="required">
 			<br>            
 
-            <label for="visit">Place you would like to visit: </label><br>
+            <label ="visit">Place you would like to visit: </label><br>
+			<?php $_SESSION["visit"] = name;?>
             <input type="radio" name="visit" value="Philippines" required="required">
-            Philippines<br>
+            Philippines<br> 
             <input type="radio" name="visit" value="Russia">
             Russia<br>
             <input type="radio" name="visit" value="England">
