@@ -1,6 +1,6 @@
 <?php if (!isset($_SESSION)) session_start();?>
 <?php
-setcookie('poll', 1, time() + (86400 * 1), '/'); 
+setcookie('poll', 1, time() + (86400 * .01), '/'); 
 ?>
  <?php require_once('form_action.php'); ?>
  <?php require_once('poll_write_file.php'); ?>
