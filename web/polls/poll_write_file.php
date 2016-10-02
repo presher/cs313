@@ -16,6 +16,7 @@ function file_put_contents($filename, $data, FILE_APPEND)
                     if(isset($_POST['polls'])) 
 { 
     file_put_contents('polls', @file_get_contents('polls') + 1); 
+	exit;
 }   
 
 ?>
