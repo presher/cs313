@@ -40,4 +40,3 @@
             <input type="submit" class="btn btn-success" value="Submit Survey">
     </form>
 <?php require_once('footer.php');?>
-?>

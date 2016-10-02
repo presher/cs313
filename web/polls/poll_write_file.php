@@ -24,7 +24,7 @@ $current .= "\n";
 file_put_contents($file, $current);
 
 $myfile = fopen("poll_results.txt", "w") or die("Unable to open file!");
-echo $myfile;
+
 $txt = "hello";
 fwrite($myfile, $txt);
 fclose($myfile);
