@@ -13,10 +13,7 @@ function file_put_contents($filename, $data, FILE_APPEND)
     fclose($file); return $bytes; // return the number of bytes written to the file 
   } 
 }   
-                    if(isset($_POST['polls'])) 
-{ 
-    file_put_contents('polls', @file_get_contents('polls') + 1); 
-	exit;
-}   
+                   
+  
 
 ?>
