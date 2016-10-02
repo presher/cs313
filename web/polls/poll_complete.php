@@ -1,6 +1,6 @@
 <?php 
-$_SESSION["visit"] = get_form_request;
-$_SESSION["favoriteBook"];
+$_SESSION["visit"] = get_form_request('visit');
+$_SESSION["favoriteBook"] = get_form_request('favoriteBook');
 $_SESSION["favoriteSeason"] = get_form_request;
 $_SESSION["favoriteTree"] = get_form_request;
 ?>
