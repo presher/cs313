@@ -15,7 +15,7 @@ if(isset($_COOKIE["poll"]))
 			<br>            
 
             <label ="visit">Place you would like to visit: </label><br>
-			<?php $_SESSION["visit"] = name;?>
+			<?php $_SESSION["visit"] = value;?>
             <input type="radio" name="visit" value="Philippines" required="required">
             Philippines<br> 
             <input type="radio" name="visit" value="Russia">
