@@ -29,7 +29,7 @@ $(document).ready(function(){
                 <ul>
                     <li><a href="index.php">Home</a></li>
                     <li><a href="controller/trees.php">Upload A Tree</a></li>
-                    <li><a href="guest/?action=get_trees">Guest Access</a></li>
+                    <li><a href="guest/.?action=get_trees">Guest Access</a></li>
                     <li><a href="signup/user_signup.php">Sign Up</a></li>
                     <li><a href="login/user_login.php">LogIn</a></li>
                 </ul>         
