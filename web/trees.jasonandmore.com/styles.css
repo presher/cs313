@@ -1,0 +1,301 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 9, 2016, 5:19:19 PM
+    Author     : Jason
+*/
+
+
+
+html {
+    background-color: rgba(0, 0, 255, 0.3);
+    background-image: url('images/tree.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 1;
+    filter: alpha(opacity=50); /* IE8, I believe... */
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #612c23;
+    width: 900px ;
+    margin: 0 auto;
+    margin-top: 2em;
+    padding: 0 2em;
+    background-color: #f4f7fc;
+    border: 1px solid red;
+}
+/* Control overall size and behavior with the body element's inner-div' */
+/*
+body>div{
+    position: relative; 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: flex;
+    -webkit-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+}
+*/
+main {
+	
+}
+
+
+h1 {
+	text-align: center;
+}
+
+footer {
+	clear: both;
+	margin-bottom: .1em;
+	text-align: center;
+}
+header{
+    font-size: 20px;
+}
+header h1 {
+    color: rgb(208, 133, 4);
+    font-size: 150%;
+    margin: 0;
+    padding: .5em 0 .25em;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+header nav li a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+main{
+    float: right;
+    margin-left: 5em;
+    padding-left: 20em;
+    width: auto;
+    height: auto;
+}
+aside {
+    float: left;
+    width: 150px;
+}
+section {
+    float: left;
+    width: 500px;
+}
+footer {
+    clear: both;
+    border-top: 2px solid black;
+}
+footer p {
+    text-align: right;
+    font-size: 80%;
+}
+h1 {
+    text-align: center;
+    font-size: 150%;
+    margin: 0;
+    padding: .5em 0 .25em;
+}
+h2 {
+    font-size: 120%;
+    margin: 0;
+    padding: .75em 0 0;
+}
+h1, h2, h3 {
+    color: rgb(208, 133, 4);
+}
+h3{
+    font-size: 75%;
+    margin: 0;
+}
+p{
+    font-size: 18px;
+}
+/* styles for the form */
+fieldset {
+    margin: 10em;
+    padding-top: 1em;
+    width: 750px;
+    height: auto;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 85%;
+}
+
+label {
+    float: left;
+    width: 10em;
+    text-align: right;
+    margin-top: .25em;
+    margin-bottom: .5em;
+    font-size: 10px;
+}
+
+form{
+    float: left;
+}
+
+input, select {
+    margin-left: 0.1em;
+    margin-bottom: 0.5em;
+    width: 8em;
+}
+
+br {
+    clear: both;
+}
+span {
+    vertical-align: middle;
+}
+
+.error {
+    color: red;
+}
+
+.notice {
+    color: red;
+    font-size: 67%;
+    text-align: right;
+}
+
+.submit{
+    width: 100px;
+}
+
+.submitt{
+    width: 100px;
+}
+.right {
+    text-align: right;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+} 
+td {
+    border: 1px dashed black;
+    /*padding: .2em .5em .2em .5em;*/
+    padding: auto;
+    vertical-align: top;
+    width: 100px;
+}
+ th {
+    border: 1px dashed black;
+    /*padding: .2em .5em .2em .5em;*/
+    padding: auto;
+    /*vertical-align: top;*/
+    background-color: #c9e9fd;
+ }
+#vehicle{
+    width: 125px;
+    text-align: center;
+}
+#year{
+    width: 5px;
+    text-align: center;
+}
+#image{
+    width: 150px;
+}
+#comments{
+    width: 300px;
+}
+#space{
+    width: 75px;
+}
+footer{
+    width: auto;
+}
+#footer_form{
+    margin-top: 2em;
+}
+iframe{
+    width: 560px;
+    height: 315px;
+   }
+img{
+       width: 150px;
+       height: 125px;
+       padding-left: 5em;
+       float: left;
+   }
+   .hidden{
+       display: none;
+   }
+.mydiv {
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+    margin-top: 3em;
+    position: fixed;
+}
+#myDIV {
+    width: auto;
+    height: auto;
+    background: green;
+    -webkit-animation: mymove 2.5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 2.5s infinite;
+}
+#myDIV2{
+    width: auto;
+    height: auto;
+}
+/* Code for Chrome, Safari and Opera */
+@-webkit-keyframes mymove {
+    from {background-color: green;}
+    to {background-color: brown;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {background-color: green;}
+    to {background-color: brown;}
+}
+td.description{
+    width: 100px;
+}
