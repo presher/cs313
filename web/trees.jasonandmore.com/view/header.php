@@ -7,7 +7,7 @@
             <meta name="Jason" content="Trees">
             <link href="/styles.css" type="text/css" rel="stylesheet">
              <meta name="viewport" content="width=device-width, initial-scale=1">
-            <link rel="stylesheet" type="text/css" href="/styles.css"  media="screen"/>
+            <link rel="stylesheet" type="text/css" href="/view/styles.css"  media="screen"/>
            <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0">
 		<title>TREES</title>
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
